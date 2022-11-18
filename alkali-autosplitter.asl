@@ -27,13 +27,11 @@ split{
 	}
 }
 
-isLoading
-{
+isLoading{
 	return true;
 }
 
 
-gameTime
-{
+gameTime{
 	return TimeSpan.FromMilliseconds(System.Convert.ToDouble(current.fileTimer));
 }
