@@ -1,12 +1,12 @@
 state("Alkali")
 {
-	ulong refNum : "Alkali.exe", 0x53FE00;
-	ulong inSaveSelect : "Alkali.exe", 0x547B70;
-	ulong fileTimer : "Alkali.exe", 0x547B78;
-	ulong levelTimer : "Alkali.exe", 0x547B80;
-	ulong levelID : "Alkali.exe", 0x547B88;
-	ulong levelCompleted : "Alkali.exe", 0x547B90;
-	ulong numDiskettes : "Alkali.exe", 0x547B98;
+	ulong refNum : "Alkali.exe", 0x560E00;
+	ulong inSaveSelect : "Alkali.exe", 0x568D08;
+	ulong fileTimer : "Alkali.exe", 0x568D10;
+	ulong levelTimer : "Alkali.exe", 0x568D18;
+	ulong levelID : "Alkali.exe", 0x568D20;
+	ulong levelCompleted : "Alkali.exe", 0x568D28;
+	ulong numDiskettes : "Alkali.exe", 0x568D30;
 }
 
 start{
